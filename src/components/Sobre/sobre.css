@@ -1,0 +1,114 @@
+.container-mae-sobre{
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s;
+    gap: 80px;
+    margin-left: 7em;
+}
+.container-sobre{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+.image-sobre{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.image-sobre img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.sobre-conteudo{
+    font-family: 'Roboto';
+    width: 550px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.sobre-conteudo h1{
+    font-size: 35px;
+    margin-top: 25px;
+}
+.sobre-conteudo p{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.icons{
+    margin-top: 25px ;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.sobre-conteudo button{
+    margin-top: 20px;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #6C63FF;
+    color: #fff;
+    transition: all 0.2s;
+}
+.sobre-conteudo button:hover{
+    font-size: 19px;
+    
+}
+.figure-sobre{
+    margin-bottom: 30px;
+}
+.figure-sobre img{
+    width: 550px;
+    height: 550px;
+}
+@media (max-width: 500px){
+    .container-mae-sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .container-sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        
+    }
+    .image-sobre{
+        width: 280px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-sobre img{
+        width: 280px;
+        height: 280px;
+    }
+    .sobre-conteudo{
+        width: 350px;
+        
+    }
+    .sobre-conteudo h1{
+        font-size: 28px;
+    }
+    .sobre-conteudo p{
+        font-size: 18px;
+    }
+    .figure-sobre{
+        display: none;
+    }
+}
+
