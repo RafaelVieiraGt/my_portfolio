@@ -91,8 +91,20 @@
     margin-top: 50px;
 }
 @media (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
     .content{
         margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
     }
     .image{
         margin-left: 25px;

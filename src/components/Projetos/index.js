@@ -8,6 +8,7 @@ import tela2 from '../../assets/Telas/primeflix.JPG';
 import tela3 from '../../assets/Telas/viagens.JPG';
 import tela4 from '../../assets/Telas/fusion.jpeg';
 import tela5 from '../../assets/Telas/django2.PNG';
+import tela6 from '../../assets/Telas/Chamados.JPG';
 
 function Projetos(){
     var settings = {
@@ -97,13 +98,13 @@ function Projetos(){
                     <a href='https://github.com/RafaelVieiraGt/Django-app-2'>Acessar</a>
                   </div>  
                 </div>
-                <div className='slide'>
-                  <div className='slide-content'>
-                    <h2>Lo's Responsabilities</h2>
+                <div className='slide' id='latest-slide'>
+                  <div className='slide-content' >
+                    <h2>Chamados</h2>
                     <div className='zoom'>
-                      <img src={tela1}/>
+                      <img src={tela6}/>
                     </div>
-                    <a href='https://los-responsabilities.netlify.app/'>Acessar</a>
+                    <a href='https://list-chamados.netlify.app/'>Acessar</a>
                   </div>  
                 </div>
             </Slider>
