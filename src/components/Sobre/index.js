@@ -20,8 +20,8 @@ function Sobre(){
                         que está em busca de sua primeira experiência profissional.</p>
                     
                     <div className='icons'>
-                        <a href='https://www.linkedin.com/in/rafael-camilli-vieira-077355269/'><AiOutlineGithub size={35} className='a'/></a>
-                        <a href='https://github.com/RafaelVieiraGt'><AiFillLinkedin size={35} className='a'/></a>
+                        <a href='https://github.com/RafaelVieiraGt'><AiOutlineGithub size={35} className='a'/></a>
+                        <a href='https://www.linkedin.com/in/rafael-camilli-vieira-077355269/'><AiFillLinkedin size={35} className='a'/></a>
                         <a href='https://www.instagram.com/rafael_cvieira/?hl=pt-br'><AiOutlineInstagram size={35} className='a'/></a>
                     </div>
                     

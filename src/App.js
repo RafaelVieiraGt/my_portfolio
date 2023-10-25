@@ -4,7 +4,7 @@ import Skills from "./components/Skills";
 import Header from "./components/Header";
 import Projetos from "./components/Projetos";
 import Footer from "./components/Footer";
-import './app.css'
+import './App.css'
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
       <Projetos/>
       <Contato/>
       <Footer/>
-      
     </div>
   );
 }

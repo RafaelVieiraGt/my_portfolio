@@ -1,5 +1,7 @@
 import './header.css'
 
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 function Header(){
     return(
         <header className="header">
@@ -10,10 +12,10 @@ function Header(){
             
             <nav>
                 <ul>
-                    <li><a href="#Sobre">Sobre</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><Link to='Sobre' spy={true} smooth={true} duration={500}>Sobre</Link></li>
+                    <li><Link to='Skills' spy={true} smooth={true} duration={500}>Skills</Link></li>
+                    <li><Link to='Projetos' spy={true} smooth={true} duration={500}>Projetos</Link></li>
+                    <li><Link to='contato' spy={true} smooth={true} duration={500}>Contato</Link></li>
                 </ul>
             </nav>
         </header>
